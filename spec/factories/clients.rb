@@ -1,5 +1,5 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :client do
-    sequnce(:name) { |n| "Client #{n}" }
+    sequence(:name) { |n| "Client #{n}" }
   end
 end
